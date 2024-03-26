@@ -152,7 +152,7 @@ const ParticleMorphing = () => {
       value: 1,
       scrollTrigger: {
         trigger: ".section1",
-        start: "center top",
+        start: "10% top",
         end: "bottom top",
         scrub: true,
         immediateRender: false,
