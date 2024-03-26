@@ -15,7 +15,7 @@ const Experience = () => {
         position: [0, 0, 8],
       }}
     >
-      <OrbitControls enableDamping={false} />
+      {/* <OrbitControls enableDamping={false} /> */}
       <ambientLight intensity={1} color={"#babad1"} />
       {/* <directionalLight position={[1, 2, 0]} intensity={2} /> */}
       <Environment files="/textures/city.hdr" />
