@@ -210,7 +210,7 @@ const ParticleMorphing = () => {
       // uColorA: new THREE.Color("#ff7300"),
       // uColorB: new THREE.Color("#0091ff"),
       uColorA: new THREE.Color("#FF8000"),
-      uColorB: new THREE.Color("##FF0000"),
+      uColorB: new THREE.Color("#6eb7ff"),
     },
     vertexShader,
     fragmentShader
