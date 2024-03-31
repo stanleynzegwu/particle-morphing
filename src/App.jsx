@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import Experience from "./canvas/Experience";
-// import Section1 from "./components/section1";
-// import Section2 from "./components/Section2";
+import Section1 from "./components/section1";
+import Section2 from "./components/Section2";
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
           <Experience />
         </Suspense>
       </div>
-      {/* <Section1 />
-      <Section2 /> */}
+      <Section1 />
+      <Section2 />
     </div>
   );
 }
